@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search {
+    margin: 20px auto;
+    width: 70%;
+
+}
+.bt {
+    transition: all 1s ease 0s;
+    margin: 20px auto;
+    width: 70%;
+    height: 30px;
+    background-color: lavender;
+    cursor: pointer;
+}
+    .bt p {
+        text-align: center;
+        font-size: 10pt;
+        font-family: "Franklin Gothic";
+        line-height: 30px;
+        user-select: none;
+        text-transform: uppercase;
+    }
+    .bt:hover {
+        background-color: rgb(175, 183, 196);
+     
+    }
+    .bt:active {
+        background-color: rgb(205, 136, 153);
+    }
+.container{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+   width:auto;
+   height: 1400px;
+   background-color:rgb(210, 200, 235);
+}
+
+.bLeft {
+    width: 20%;
+    height: auto;
+    background-color: rgb(247, 255, 252);
+}
+
+.bRight {
+    width: 80%;
+    height: auto;
+   
+}
+.container_info {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 600px;
+    background: url(main11.jpg) 100% 100% no-repeat;
+    background-size: cover;
+  
+}
+.container_min {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 50px;
+    background-color: rgb(105, 36, 53);
+}
+.container_st {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 900px;
+    background-color: rgb(247, 255, 252);
+}
+.cell1 {
+    margin: auto;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(210, 200, 235);
+    transition: all 1s ease 0s;
+    cursor: pointer;
+    background: url(st1.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+    .cell1 h1, .cell2 h1, .cell3 h1, .cell4 h1, .cell5 h1, .cell6 h1 {
+        margin: 80pt 10pt auto;
+        text-align: justify;
+        font-size: 28pt;
+        -webkit-text-fill-color:black;
+        -webkit-text-stroke-width: 0.75px;
+        -webkit-text-stroke-color: white;
+    }
+.cell1 p, .cell2 p, .cell3 p, .cell4 p, .cell5 p, .cell6 p {
+    margin: 20pt 10pt auto;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: "Franklin Gothic";
+    user-select: none;
+    -webkit-text-fill-color:rgb(255, 213, 32);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+    .cell1:hover {
+        background-color: lightsalmon;
+        width: 35%;
+        height: 350px;
+        background-blend-mode:hard-light;
+        font-size: 14pt;
+        color: rgb(105, 36, 53);
+    }
+
+.cell1 :active {
+    background-color: lavender;
+}
+
+.cell2 {
+    margin: auto;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(210, 200, 235);
+    transition: all 1s ease 0s;
+    cursor: pointer;
+    background: url(st2.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+    .cell2:hover {
+        background-color: lightsalmon;
+        width: 35%;
+        height: 350px;
+        background-blend-mode: luminosity;
+    }
+
+    .cell2:active {
+        background-color: lavender;
+    }
+.cell3 {
+    margin: auto;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(210, 200, 235);
+    transition: all 1s ease 0s;
+    cursor: pointer;
+    background: url(st3.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+    .cell3:hover {
+        background-color: lightsalmon;
+        width: 35%;
+        height: 350px;
+        background-blend-mode: luminosity;
+    }
+
+    .cell3:active {
+        background-color: lavender;
+    }
+.cell4 {
+    margin: auto;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(210, 200, 235);
+    transition: all 1s ease 0s;
+    cursor: pointer;
+    background: url(st4.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+    .cell4:hover {
+        background-color: lightsalmon;
+        width: 35%;
+        height: 350px;
+        background-blend-mode: luminosity;
+    }
+
+    .cell4:active {
+        background-color: lavender;
+    }
+.cell5 {
+    margin: auto;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(210, 200, 235);
+    transition: all 1s ease 0s;
+    cursor: pointer;
+    background: url(st5.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+    .cell5:hover {
+        background-color: lightsalmon;
+        width: 35%;
+        height: 350px;
+        background-blend-mode: luminosity;
+    }
+
+    .cell5:active {
+        background-color: lavender;
+    }
+.cell6 {
+    margin: auto;
+    width: 30%;
+    height: 250px;
+    background-color: rgb(210, 200, 235);
+    transition: all 1s ease 0s;
+    cursor: pointer;
+    background: url(st6.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+    .cell6:hover {
+        background-color: lightsalmon;
+        width: 35%;
+        height: 350px;
+        background-blend-mode: luminosity;
+    }
+
+    .cell6:active {
+        background-color: lavender;
+    }
+.footer {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(247, 255, 252);
+}
